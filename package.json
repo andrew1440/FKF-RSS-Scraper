@@ -1,0 +1,17 @@
+{
+  "name": "fkf-rss-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes footballkenya.org/news and outputs an RSS 2.0 XML feed",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "start": "node scraper.js"
+  },
+  "keywords": ["fkf", "rss", "scraper", "football-kenya"],
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "rss": "^1.2.2"
+  }
+}
